@@ -1,0 +1,31 @@
+footer {
+    height: 6vh;
+    background-color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer svg {
+    font-size: 1.5em;
+    color: white;
+}
+
+footer svg:hover {
+    color: lightgrey;
+}
+
+.box-ctt {
+    display: flex;
+    gap: 20px;
+}

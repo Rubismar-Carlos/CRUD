@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav p {
+    color: white;
+    cursor: pointer;
+}
+
+nav > ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.active {
+    color: red;
+}
